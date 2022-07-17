@@ -1,0 +1,42 @@
+.page-home-content .layout-zebra-section {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+.layout-zebra-section:first-child {
+    text-align: center;
+}
+.layout-zebra-section {
+    font-size: 20px;
+    border-bottom: 8px solid #edf2f7;
+    padding: 60px 0;
+}
+:first-child, .hide:first-child+* {
+    margin-top: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+body {
+    font: 16px/1.2 Arial,sans-serif;
+    color: #646464;
+    background: url(../images/bg.png) repeat;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
